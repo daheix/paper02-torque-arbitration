@@ -15,7 +15,7 @@ Writing rules: `.claude/skills/sci-paper-writing/sci-write-skill.md` (title-styl
 - Context: three classical torque formulations applied to the same FEM model routinely disagree by O(10%) — practitioners lack a principled tie-breaker.
 - Gap: literature stops at accuracy folklore; no mesh-sequence root-cause taxonomy, no reference-free criterion (docs/gap_evidence.md).
 - Method: 5-level mesh refinement × 3 formulations (Maxwell stress ring at 3 radii, virtual-work co-energy slope, formula torque) on a frozen 4-pole/12-slot SPM sector; identity residual ε_id = |W_int − (W_dl − W_nl − W_arm)| tracked per level; analytic ladder cross-check.
-- Results: [FILLED FROM data/results_mesh_sequence.csv — e.g. inter-formulation spread falls from XX% (M1) to X.X% (M5); stress-ring radius sensitivity Y% at r=29.8mm; ε_id falls faster than spread ⇒ referee criterion].
+- Results (v0.2.0 measured, data/results_mesh_sequence.csv + analysis_summary.csv): integral-quantity trio (virtual-work slope vs co-energy amplitude vs formula torque) agrees to 1.15% CONSTANTLY across M2–M5 (energy side self-consistent); Maxwell stress ring spread across mesh levels 15–43% and SAME-MESH ring-radius band up to 77% (M4) — point-sampled Bn·Bt of P0 piecewise-constant fields carries no convergence meaning; formula torque sits at a constant 12.4% gap due to coil-flux vs energy-consistent λ gauge (flux-gauge gap, not a torque-formulation gap).
 - Meaning: practitioners get an operational recipe (mesh level + identity check) to certify torque numbers without reference experiments.
 
 ## Section plan
