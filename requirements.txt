@@ -1,0 +1,4 @@
+# minimal runtime: Python >= 3.10
+numpy>=1.24
+matplotlib>=3.8
+# external: Gmsh 4.15.2 (gmsh -2 -format msh2), GetDP 4.0.0, g++ (vw_arbiter build)

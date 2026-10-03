@@ -29,6 +29,13 @@ Paper text is **not** hosted here (journal policy); this repository carries data
 
 See [CHANGELOG.md](CHANGELOG.md).
 
+## Reproduction environment
+
+- Python >= 3.10 with `numpy` / `matplotlib` (see `requirements.txt`).
+- External: Gmsh 4.15.2 (`gmsh -2 -format msh2`), GetDP 4.0.0, `g++`
+  (build `vw_arbiter`); all released CSVs in `data/` regenerate with
+  `scripts/` against these versions.
+
 ## Provenance
 
 Standalone P1 FEM arbiter (`vw_arbiter` lineage) cross-checked against the Gmsh+GetDP production chain of the ChinaSim Motor Pro workbench; analytic ladder (A1 current-loaded disc, A2 transversely magnetised cylinder, Carter factor) in `analytic_verify` lineage. Design parameters and formula conventions are frozen in `docs/experiment_plan.md`.
