@@ -24,7 +24,7 @@ Paper text is **not** hosted here (journal policy); this repository carries data
 ## Status
 
 - [x] v0.1.0 — skeleton: experiment plan, arbiter toolchain inventory, gap evidence
-- [ ] v0.2.0 — single-model mesh-sequence pilot (5 levels × 3 formulations)
+- [x] v0.2.0 — mesh-sequence pilot M2–M5: integral trio stable to 1.15%, stress ring pathological (15–43% spread, ring-radius band ≤77%)
 - [ ] v1.0.0 — full matrix + referee-criterion generalization + analytic cross-check (paper submission)
 
 See [CHANGELOG.md](CHANGELOG.md).
