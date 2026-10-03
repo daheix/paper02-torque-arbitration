@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Replication package for Paper 2: root-cause analysis and referee criteria for discrepant FEM torque formulations under mesh refinement."
+title: paper02-torque-arbitration
+authors:
+  - family-names: Wu
+    given-names: Shouchun
+    orcid: "https://orcid.org/0009-0007-3577-2552"
+version: 0.1.0
+date-released: "2026-10-03"
+license: MIT
+repository-code: "https://github.com/daheix/paper02-torque-arbitration"
