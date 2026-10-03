@@ -36,3 +36,13 @@ the full matrix so later papers skip dead ends.
    - resolve a correct Editorial Manager code for an in-scope journal.
 3. Manuscript (main.tex, 6 pp, 6 verified references) and replication package
    (tag v0.3.0) are ready; no content blocker remains.
+
+## Addendum (same round, later probes)
+
+| Channel | Probe | Result |
+|---|---|---|
+| MDPI SuSy (`susy.mdpi.com`) + mdpi.com | curl | 403 challenge — NO |
+| Pleiades `/en/journal/ruselectrengineer/`, `/elektr/` | curl 200 but "No results found" soft page | real slug unresolved (JS catalogue); next: `site:pleiades.online` search or Springer journal page JS |
+
+Editorial Manager code candidates still unresolved for in-scope journals;
+EMSE proves EM automation works once the code is known.
