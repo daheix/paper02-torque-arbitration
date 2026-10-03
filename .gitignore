@@ -1,0 +1,5 @@
+manuscript/
+*.aux
+*.log
+*.out
+*.synctex.gz
