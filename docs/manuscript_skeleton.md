@@ -2,7 +2,7 @@
 
 Series Paper 2 · genre: **methods/validation study** (formulation-disagreement root-cause + referee criterion)
 Target journal: IET Science, Measurement & Technology (main) → COMPEL (backup)
-Writing rules: `.claude/skills/sci-paper-writing/sci-write-skill.md` (title-style, quantified abstract, zero-fabrication red lines)
+Writing rules: `.claude/skills/sci-paper-writing/SKILL.md（语言层见 references/语言润色-*.md）` (title-style, quantified abstract, zero-fabrication red lines)
 
 ## Title candidates (8–16 words, declarative, tool-paper style)
 
